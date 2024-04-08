@@ -8,7 +8,7 @@ export const HeroSection = () => {
       <main
         className="h-[clamp(24rem,43vw,43rem)] px-[clamp(2rem,4.2vw,4.2rem)] py-[clamp(2rem,6vw,6rem)] rounded-3xl flex items-end"
         style={{
-          background: "url(/hero-section/farmer.svg)",
+          background: "url(/hero-section/happy-farmer.JPG)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: " center",
