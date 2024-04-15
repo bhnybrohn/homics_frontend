@@ -4,64 +4,74 @@ import React from "react";
 
 const data = [
   {
-    id: 1,
-    title: "ALDDN",
-    text: "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.",
-    bg: "#fff",
-    color: "#4D4B4B",
+    title: "Consulting Support",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    bg: "url(/hero-section/bg-1.svg)",
   },
   {
-    id: 2,
-    title: "ALDDN",
-    text: "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.",
-    bg: "#7ACF5F",
-    color: "#fff",
+    title: "Consulting Support",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    bg: "url(/hero-section/bg-2.svg)",
   },
   {
-    id: 3,
-    title: "ALDDN",
-    text: "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.",
-    bg: "#7ACF5F",
-    color: "#fff",
+    title: "Consulting Support",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    bg: "url(/hero-section/bg-3.svg)",
   },
   {
-    id: 4,
-    title: "ALDDN",
-    text: "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.",
-    bg: "#fff",
-    color: "#4D4B4B",
+    title: "Consulting Support",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    bg: "url(/hero-section/bg-4.svg)",
   },
 ];
 
 export const OurProjects = () => {
   return (
-    <LandingPageLayout>
-      <main className="bg-homics-dark-500 rounded-3xl p-[clamp(2rem,3vw,3rem)] flex flex-col gap-4">
-        <h3 className="text-[clamp(1.3rem,2vw,2rem)] font-medium text-white text-center">
-          Our Projects
+    <main
+      style={{
+        background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/hero-section/section-bg.svg')`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <section className="max-[1440px] mx-auto flex flex-col gap-8 pt-[clamp(1.5rem,4.5vw,4.5rem)] px-[clamp(1rem,2vw,2rem)] pb-[clamp(1rem,2vw,2rem)]">
+        <h3 className="text-white font-semibold text-[1.25rem] text-center">
+          Some of our impressive work
         </h3>
-        <section className="grid grid-cols-2 max-[570px]:grid-cols-1 gap-6 overflow-x-auto">
-          {data.map(({ title, text, id, bg, color }) => (
-            <div
-              key={id}
-              className={clsx(
-                "flex flex-col gap-2  rounded-xl p-[clamp(1.2rem,2vw,2rem)] min-w-[241px] min-h-[230px]"
-              )}
-              style={{ background: bg }}
+        <figure className="grid grid-cols-4 max-[1000px]:grid-cols-3 max-[800px]:grid-cols-2 max-[520px]:grid-cols-1 gap-4">
+          {data.map(({ title, text, bg }, idx) => (
+            <article
+              className="flex flex-col gap-3 rounded-xl p-[clamp(1.2rem,2vw,2rem)] min-h-[400px]"
+              style={{
+                background: bg,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
             >
               <h3
-                className={clsx(" font-medium text-[1.3rem] text-center")}
-                style={{
-                  color: color,
-                }}
+                className={clsx(
+                  idx === 1 || idx === 3
+                    ? "text-black"
+                    : "text-homics-success-500",
+                  "text-base font-semibold"
+                )}
               >
                 {title}
               </h3>
-              <p className="text-base font-normal text-center">{text}</p>
-            </div>
+              <p
+                className={clsx(
+                  idx === 1 || idx === 3 ? "text-[#000]" : "text-[#666666]",
+                  "max-w-[16.75rem] text-sm font-medium"
+                )}
+              >
+                {text}
+              </p>
+            </article>
           ))}
-        </section>
-      </main>
-    </LandingPageLayout>
+        </figure>
+      </section>
+    </main>
   );
 };

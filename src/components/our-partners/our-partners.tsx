@@ -16,7 +16,7 @@ export const OurPartners = () => {
         Our Partners
       </h3>
       <section className="py-[clamp(2rem,3vw,3rem)] border-y-[1.5px] border-homics-dark-500">
-        <div className="max-w-[1440px] mx-auto grid grid-cols-5 gap-[clamp(1.2rem,2vw,2rem)]">
+        <div className="max-w-[1440px] mx-auto grid grid-cols-5 gap-[clamp(1.2rem,2vw,2rem)] justify-items-center">
           {data.map((item, idx) => (
             <figure
               key={idx}

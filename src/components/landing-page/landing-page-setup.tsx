@@ -7,20 +7,17 @@ import { OurServices } from "@/our-services";
 import { Projects } from "@/projects";
 import { WhoAreWe } from "@/who-are-we";
 import React from "react";
+import { motion } from "framer-motion";
+import { MainLayout } from "@/layout";
 
 export const LandingPage = () => {
   return (
-    <main className="h-[100svh] flex flex-col">
-      <Navbar />
-      <section className="flex flex-col flex-1 overflow-auto">
-        <HeroSection />
-        <WhoAreWe />
-        <Projects />
-        <OurServices />
-        <OurProjects />
-        <OurPartners />
-        <Footer />
-      </section>
-    </main>
+    <MainLayout>
+      <HeroSection />
+      <WhoAreWe />
+      <OurServices />
+      <OurProjects />
+      <OurPartners />
+    </MainLayout>
   );
 };

@@ -1,22 +1,29 @@
 import React from "react";
-import { Avatar, Button } from "@mantine/core";
+import { Avatar, Button, clsx } from "@mantine/core";
 import Link from "next/link";
 import { LandingPageLayout } from "@/layout";
 import { PrimarButton } from "@/shared";
 import { MobileNav } from "@/mobile-nav";
 import Image from "next/image";
+import { color, motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const data = [
-  { name: "Home", link: "" },
-  { name: "About us", link: "" },
-  { name: "Community", link: "" },
-  { name: "Contact us", link: "" },
+  { name: "Home", link: "/" },
+  { name: "About us", link: "/about-us" },
+  { name: "Community", link: "/community" },
+  { name: "Contact us", link: "/contact-us" },
 ];
 
 export const Navbar = () => {
+  const { pathname } = useRouter();
   return (
-    <LandingPageLayout>
-      <main className="flex items-center justify-between w-full">
+    <main className="bg-[#1F1F1F]">
+      <motion.section
+        className="flex items-center justify-between w-full max-w-[1440px] mx-auto px-4"
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+      >
         <figure className="w-[clamp(4rem,5.1vw,5.1rem)] h-[clamp(4rem,5.1vw,5.1rem)]">
           <Image
             className="!w-full !h-full"
@@ -33,7 +40,10 @@ export const Navbar = () => {
             <Link
               key={idx}
               href={link}
-              className="text-base font-normal hover:text-homics-success-500"
+              className={clsx(
+                pathname === link ? "text-homics-success-500" : "text-white",
+                "text-base  font-normal hover:text-homics-success-400"
+              )}
             >
               {name}
             </Link>
@@ -45,7 +55,7 @@ export const Navbar = () => {
         <div className="hidden max-[550px]:block">
           <MobileNav />
         </div>
-      </main>
-    </LandingPageLayout>
+      </motion.section>
+    </main>
   );
 };

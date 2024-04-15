@@ -2,7 +2,7 @@ import React from "react";
 
 export const Projects = () => {
   return (
-    <main className="bg-black py-[clamp(1.5rem,2vw,2rem)] ">
+    <main className="bg-[#1F1F1F] py-[clamp(1.5rem,2vw,2rem)] ">
       <section className="grid grid-cols-3 w-[60%] mx-auto">
         {Array(3)
           .fill(0)

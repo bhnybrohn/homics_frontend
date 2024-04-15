@@ -26,7 +26,7 @@ export const MobileNav = () => {
       }}
     >
       <Menu.Target>
-        <Burger opened={opened} onClick={toggle} size="md" />
+        <Burger opened={opened} onClick={toggle} size="md" color="#fff" />
       </Menu.Target>
       <Menu.Dropdown>
         <ul className="flex flex-col gap-2">
