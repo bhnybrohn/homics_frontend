@@ -8,22 +8,22 @@ import { Avatar, clsx } from "@mantine/core";
 const data = [
   {
     title: "Agricultural consulting",
-    text: "Gain a competitive edge with agricultural consulting services. our experts provide personalized advice on market trends,sustainability practices and customized solutions based on your specific needs. we work closely with you to develop strategies,implement best practices, and navigate regulatory challenges, empowering your agribusiness to thrive and succeed.",
+    text: " Gain a competitive edge with our agricultural consulting services. Our experts provide personalized advice on market trends, sustainability practices and customized solutions based on your specific needs. We work closely with you to develop strategies, implement best practices, and navigate regulatory challenges, empowering your agribusiness to thrive and succeed.",
     icon: "/hero-section/hands.svg",
   },
   {
     title: "Capacity building ",
-    text: "Gain a competitive edge with agricultural consulting services. our experts provide personalized advice on market trends,sustainability practices and customized solutions based on your specific needs. we work closely with you to develop strategies,implement best practices, and navigate regulatory challenges, empowering your agribusiness to thrive and succeed",
+    text: "Invest in your team's success with our capacity-building programs. We offer training, workshops, mentorship, and skill development initiatives tailored to the agribusiness sector. From technical expertise to managerial skills and entrepreneurial acumen, we empower your workforce to innovate, adapt, and drive sustainable growth in a rapidly evolving industry.",
     icon: "/hero-section/bulb.svg",
   },
   {
-    title: "Supply Chain",
-    text: "Gain a competitive edge with agricultural consulting services. our experts provide personalized advice on market trends,sustainability practices and customized solutions based on your specific needs. we work closely with you to develop strategies,implement best practices, and navigate regulatory challenges, empowering your agribusiness to thrive and succeed",
+    title: "Supply Chain Management",
+    text: "Our supply chain management services ensure smooth operations from farm to market. We specialize in procurement, logistics, inventory management, and distribution, enabling you to access inputs efficiently, minimize waste, and deliver products on time. With real-time tracking and tailored solutions, we enhance reliability, reduce risks, and maximize your supply chain performance.",
     icon: "/hero-section/farm-remove.svg",
   },
   {
     title: "Value chain analysis",
-    text: "Gain a competitive edge with agricultural consulting services. our experts provide personalized advice on market trends,sustainability practices and customized solutions based on your specific needs. we work closely with you to develop strategies,implement best practices, and navigate regulatory challenges, empowering your agribusiness to thrive and succeed",
+    text: " Unlock the full potential of your agribusiness with our comprehensive value chain analysis. We dissect every stage of production, from sourcing to distribution, to identify areas of value addition and streamline processes. By optimizing your value chain, we help you reduce costs, improve product quality, and stay competitive in today's dynamic market.",
     icon: "/hero-section/chain.svg",
   },
 ];
@@ -73,8 +73,9 @@ export const OurServices = () => {
               Policy consulting
             </h3>
             <p className="text-white max-w-[21rem] text-sm font-medium">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis. Class
+
+              Stay ahead of regulatory changes and unlock growth opportunities as we provide services that help you analyze government policies, trade agreements, and industry standards to ensure compliance and strategic alignment. Our advocacy efforts, compliance audits, and strategic planning help you navigate complexities, mitigate risks, and capitalize on policy-driven advantages.
+
             </p>
           </figure>
         </div>
