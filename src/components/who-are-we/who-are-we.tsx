@@ -11,14 +11,19 @@ export const WhoAreWe = () => {
             Who are we ?
           </h3>
           <p className="max-w-[43.6rem] text-base text-gray-500 text-center mx-auto">
-            <span className="text-homics-success-500 font-semibold">Torem</span>{" "}
-            ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-            molestie, dictum est a, mattis tellus. Sed dignissim,{" "}
+            <span className="text-homics-success-500 font-semibold">Homics</span>{" "}
+            is a leading innovator within the agribusiness sector. We specialize in the seamless fusion of agriculture and commerce, driving agricultural growth and prosperity{" "}
             <span className="text-homics-success-500 font-semibold">
-              metus nec{" "}
+              Our unwavering commitment{" "}
             </span>{" "}
-            fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
-            elit sed risus.
+            to excellence permeates every step of the agricultural value chain, ensuring sustainable and impactful outcomes for our partners.
+            <span className="text-homics-success-500 font-semibold">
+              At Homics,{" "}
+            </span>{" "}
+            we specialise in providing services designed to address key challenges, drive efficiency, and empower agribusinesses to achieve their goals and thrive in today's competitive landscape.
+
+
+
           </p>
         </div>
         <section className="flex items-center gap-4 max-[700px]:flex-col">
