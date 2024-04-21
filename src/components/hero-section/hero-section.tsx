@@ -4,10 +4,10 @@ import { Projects } from "@/projects";
 import { useEffect, useState } from "react";
 
 const images = [
-  "/hero-section/first-bg.jpeg",
-  "/hero-section/second-bg.jpeg",
-  "/hero-section/third-bg.jpeg",
-  "/hero-section/fourth-bg.jpeg",
+  "/hero-section/first.jpg",
+  "/hero-section/second.jpg",
+  "/hero-section/third.jpg",
+  "/hero-section/fourth.jpg",
 ];
 
 export const HeroSection = () => {
@@ -41,7 +41,7 @@ export const HeroSection = () => {
           <figure className="max-w-[1440px] p-[clamp(1rem,2vw,2rem)]">
             <div className="flex flex-col gap-4 bg-[#000]/60 rounded-2xl px-4 py-6">
               <motion.h3
-                className="text-white font-semibold max-w-[30.7rem] text-[clamp(1.5rem,2.5vw,2.5rem)]"
+                className="text-white font-semibold max-w-[38.7rem] text-[clamp(1.5rem,2.5vw,2.5rem)]"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}

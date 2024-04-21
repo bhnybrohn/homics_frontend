@@ -1,8 +1,25 @@
 import { MainLayout } from "@/layout";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+const images = [
+  "/hero-section/first-bg.jpeg",
+  "/hero-section/second-bg.jpeg",
+  "/hero-section/third-bg.jpeg",
+  // "/hero-section/fourth-bg.jpeg",
+];
 
 export const AboutUsSetup = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <MainLayout>
       <main className="flex flex-col h-full">
@@ -12,7 +29,9 @@ export const AboutUsSetup = () => {
               About Us
             </h2>
             <p className="text-sm font-medium text-white max-w-[38.5rem] max-[1265px]:pb-8">
-              At Homics, we specialise in providing services designed to address key challenges, drive efficiency, and empower agribusinesses to achieve their goals and thrive in today's competitive landscape.
+              At Homics, we specialise in providing services designed to address
+              key challenges, drive efficiency, and empower agribusinesses to
+              achieve their goals and thrive in today's competitive landscape.
             </p>
           </div>
         </section>
@@ -22,7 +41,7 @@ export const AboutUsSetup = () => {
               <figure className="w-full h-[clamp(10rem,28.25vw,28.25rem)]">
                 <Image
                   className="!w-full !h-full"
-                  src="/hero-section/farmland.svg"
+                  src={images[index]}
                   width={100}
                   height={100}
                   alt=""

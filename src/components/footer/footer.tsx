@@ -5,23 +5,28 @@ import Image from "next/image";
 import React from "react";
 import { FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 const data = [
   {
-    title: "Corporate",
+    title: "Who are we",
     children: ["Collaborate with us"],
-  },
-  {
-    title: "Corporate",
-    children: ["Collaborate with us"],
-  },
-  {
-    title: "Corporate",
-    children: ["Collaborate with us"],
+    link: "who-are-we",
   },
   {
     title: "About Us",
+    children: ["Collaborate with us"],
+    // link: "/about-us",
+  },
+  {
+    title: "Community",
+    children: ["Collaborate with us"],
+    // link: "/community",
+  },
+  {
+    title: "Contact Us",
     children: ["FAQs"],
+    // link: "/contact-us",
   },
 ];
 
@@ -31,15 +36,21 @@ export const Footer = () => {
       <section className="max-w-[1440px] mx-auto flex flex-col gap-4">
         <article className="flex items-center max-[858px]:flex-col gap-[clamp(1.2rem,2vw,2rem)] justify-between py-8 border-b border-[#ccc]">
           <figure className="w-[70%] flex items-center justify-between max-[858px]:w-full max-[858px]:items-start max-[505px]:flex-col max-[505px]:gap-3">
-            {data.map(({ title, children }, idx) => (
-              <div key={idx} className="flex flex-col gap-1">
-                <h3 className="text-base text-white font-normal">{title}</h3>
+            {data.map(({ title, children, link }, idx) => (
+              <a
+                id={link}
+                key={idx}
+                className="flex flex-col gap-1 cursor-pointer"
+              >
+                <h3 className="text-base text-white font-normal hover:text-homics-success-400">
+                  {title}
+                </h3>
                 {children.map((item, index) => (
                   <p className="text-sm font-normal text-white" key={index}>
                     {item}
                   </p>
                 ))}
-              </div>
+              </a>
             ))}
           </figure>
           <div className="flex-1 flex flex-col gap-2 items-end justify-end max-[858px]:w-full max-[858px]:items-start">

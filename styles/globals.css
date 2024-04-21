@@ -15,3 +15,23 @@
 .box-shadow{
   box-shadow: 0px 18px 5px 0px #D9D9D9
 }
+
+@layer components {
+  .marquee .grid {
+    animation: marquee 30s linear infinite;
+    /* Adjust animation duration and timing function as needed */
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  /* Move cards to the right */
+  100% {
+    transform: translateX(-100%);
+  }
+
+  /* Move cards to the left */
+}
