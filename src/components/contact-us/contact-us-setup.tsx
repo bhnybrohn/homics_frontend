@@ -91,12 +91,12 @@ export const ContactUsSetup = () => {
                 color="#535353"
               />
               <div className="flex flex-col justify-between gap-6 h-full">
-                <button
+                {/* <button
                   type="button"
                   className="text-base text-homics-dark-500 bg-white py-1 px-2.5 w-fit flex self-end"
                 >
                   Get in touch
-                </button>
+                </button> */}
                 <p className="text-white text-base max-w-[30rem] flex self-start">
                   Feel free to contact us at anytime we will get back to you as
                   soon as possible.

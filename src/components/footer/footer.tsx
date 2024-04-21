@@ -21,7 +21,7 @@ const data = [
   },
   {
     title: "About Us",
-    children: ["FAQs", "Blog"],
+    children: ["FAQs"],
   },
 ];
 

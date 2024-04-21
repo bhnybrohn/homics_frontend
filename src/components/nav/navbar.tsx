@@ -24,12 +24,12 @@ export const Navbar = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        <figure className="w-[clamp(4rem,5.1vw,5.1rem)] h-[clamp(4rem,5.1vw,5.1rem)]">
+        <figure className="w-[clamp(6rem,5.5vw,5.5rem)] h-[clamp(6rem,5.5vw,5.5rem)]">
           <Image
             className="!w-full !h-full"
             src="/navbar/logo.svg"
-            height={100}
-            width={100}
+            height={200}
+            width={200}
             priority
             alt=""
           />
@@ -50,7 +50,7 @@ export const Navbar = () => {
           ))}
         </ul>
         <div className="max-[550px]:hidden">
-          <PrimarButton title="Button" type="button" />
+          {/* <PrimarButton title="Button" type="button" /> */}
         </div>
         <div className="hidden max-[550px]:block">
           <MobileNav />

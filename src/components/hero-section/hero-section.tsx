@@ -46,7 +46,7 @@ export const HeroSection = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                Premiun partner for agricultural sourcing.
+                Your Global Partner for Sustainable Agribusiness Growth
               </motion.h3>
               <motion.p
                 className="text-sm text-white max-w-[25rem] "
@@ -62,7 +62,7 @@ export const HeroSection = () => {
                 <SecondaryButton
                   w={150}
                   type="button"
-                  title="Button"
+                  title="Learn more"
                   bg="#fff"
                   className="text-black"
                 />

@@ -33,7 +33,7 @@ export const OurServices = () => {
     <LandingPageLayout>
       <main className="flex items-start gap-4 max-[1000px]:flex-col">
         <div className="w-[40%] flex flex-col gap-2 max-[1000px]:w-full">
-          <h3 className="font-semibold text-[1.25rem] text-homics-success-400 text-center">
+          <h3 className="font-semibold text-[2.5rem] text-homics-success-400 text-center">
             Our Services
           </h3>
         </div>
