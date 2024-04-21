@@ -9,24 +9,24 @@ import Link from "next/link";
 
 const data = [
   {
-    title: "Who are we",
+    title: "Home",
     children: ["Collaborate with us"],
-    link: "who-are-we",
+    link: "/",
   },
   {
     title: "About Us",
     children: ["Collaborate with us"],
-    // link: "/about-us",
+    link: "/about-us",
   },
   {
     title: "Community",
     children: ["Collaborate with us"],
-    // link: "/community",
+    link: "/community",
   },
   {
     title: "Contact Us",
     children: ["FAQs"],
-    // link: "/contact-us",
+    link: "/contact-us",
   },
 ];
 
@@ -37,11 +37,7 @@ export const Footer = () => {
         <article className="flex items-center max-[858px]:flex-col gap-[clamp(1.2rem,2vw,2rem)] justify-between py-8 border-b border-[#ccc]">
           <figure className="w-[70%] flex items-center justify-between max-[858px]:w-full max-[858px]:items-start max-[505px]:flex-col max-[505px]:gap-3">
             {data.map(({ title, children, link }, idx) => (
-              <a
-                id={link}
-                key={idx}
-                className="flex flex-col gap-1 cursor-pointer"
-              >
+              <Link href={link} key={idx} className="flex flex-col gap-1">
                 <h3 className="text-base text-white font-normal hover:text-homics-success-400">
                   {title}
                 </h3>
@@ -50,7 +46,7 @@ export const Footer = () => {
                     {item}
                   </p>
                 ))}
-              </a>
+              </Link>
             ))}
           </figure>
           <div className="flex-1 flex flex-col gap-2 items-end justify-end max-[858px]:w-full max-[858px]:items-start">
