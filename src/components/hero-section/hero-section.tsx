@@ -23,7 +23,7 @@ export const HeroSection = () => {
 
   return (
     <AnimatePresence>
-      <main className="flex flex-col h-[92svh]  max-[800px]:h-[70svh]">
+      <main className="flex flex-col h-[92svh]  max-[800px]:h-[85svh]">
         <motion.section
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
