@@ -40,11 +40,11 @@ export const Projects = () => {
       <section className="grid grid-cols-3 w-[60%] mx-auto">
         {data.map((_, idx) => (
           <div key={idx} className="flex flex-col gap-1">
-            <h3 className="text-white font-medium text-[clamp(1.5rem,2vw,2rem)] text-center">
+            <h3 className="text-white font-medium text-[clamp(1.25rem,2vw,2rem)] text-center">
               {_.number}
               {/* {counterAction(100)} */}
             </h3>
-            <p className="text-[clamp(1rem,1.5vw,1.5rem)] text-white font-normal leading-3 text-center">
+            <p className="text-[clamp(0.75rem,1.5vw,1.5rem)] text-white font-normal leading-3 text-center text-nowrap">
               {_.type}
             </p>
           </div>

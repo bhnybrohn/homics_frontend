@@ -18,16 +18,16 @@ const data = [
 export const Navbar = () => {
   const { pathname } = useRouter();
   return (
-    <main className="bg-[#1F1F1F]">
+    <main className="bg-[#fff] py-8">
       <motion.section
         className="flex items-center justify-between w-full max-w-[1440px] mx-auto px-4"
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        <figure className="w-[clamp(6rem,5.5vw,5.5rem)] h-[clamp(6rem,5.5vw,5.5rem)]">
+        <figure className="w-[clamp(6rem,10vw,10rem)] h-[clamp(2rem,2.5vw,2.5rem)]">
           <Image
             className="!w-full !h-full"
-            src="/navbar/logo.svg"
+            src="/navbar/logo.png"
             height={200}
             width={200}
             priority
@@ -41,8 +41,10 @@ export const Navbar = () => {
               key={idx}
               href={link}
               className={clsx(
-                pathname === link ? "text-homics-success-500" : "text-white",
-                "text-base  font-normal hover:text-homics-success-400"
+                pathname === link
+                  ? "text-homics-success-500"
+                  : "text-homics-success-400",
+                "text-base font-normal hover:text-homics-success-500"
               )}
             >
               {name}

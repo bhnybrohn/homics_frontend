@@ -88,10 +88,10 @@ export const Footer = () => {
         </article>
         <article className="flex items-center gap-8 max-[530px]:flex-col max-[530px]:items-start">
           <div className="flex-1">
-            <figure className="w-[clamp(4rem,5.1vw,5.1rem)] h-[clamp(4rem,5.1vw,5.1rem)]">
+            <figure className="w-[clamp(6rem,10vw,10rem)] h-[clamp(2rem,2.5vw,2.5rem)]">
               <Image
                 className="!w-full !h-full"
-                src="/navbar/logo.svg"
+                src="/navbar/logo.png"
                 height={100}
                 width={100}
                 priority

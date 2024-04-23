@@ -68,14 +68,17 @@ export const OurServices = () => {
             ))}
           </section>
           <figure className="flex flex-col gap-4 p-[clamp(1.2rem,2vw,2rem)] rounded-xl bg-homics-success-500">
-            <Avatar src="/hero-section/chain.svg" size={100} radius="100%" />
+            <Avatar src="/hero-section/policy.svg" size={100} radius="100%" />
             <h3 className="text-[1.25rem] font-semibold text-white ">
               Policy consulting
             </h3>
             <p className="text-white max-w-[21rem] text-sm font-medium">
-
-              Stay ahead of regulatory changes and unlock growth opportunities as we provide services that help you analyze government policies, trade agreements, and industry standards to ensure compliance and strategic alignment. Our advocacy efforts, compliance audits, and strategic planning help you navigate complexities, mitigate risks, and capitalize on policy-driven advantages.
-
+              Stay ahead of regulatory changes and unlock growth opportunities
+              as we provide services that help you analyze government policies,
+              trade agreements, and industry standards to ensure compliance and
+              strategic alignment. Our advocacy efforts, compliance audits, and
+              strategic planning help you navigate complexities, mitigate risks,
+              and capitalize on policy-driven advantages.
             </p>
           </figure>
         </div>

@@ -4,10 +4,10 @@ import Link from "next/link";
 import React from "react";
 
 const data = [
-  { name: "Home", link: "" },
-  { name: "About us", link: "" },
-  { name: "Community", link: "" },
-  { name: "Contact us", link: "" },
+  { name: "Home", link: "/" },
+  { name: "About us", link: "/about-us" },
+  { name: "Community", link: "/community" },
+  { name: "Contact us", link: "/contact-us" },
 ];
 
 export const MobileNav = () => {
@@ -26,7 +26,7 @@ export const MobileNav = () => {
       }}
     >
       <Menu.Target>
-        <Burger opened={opened} onClick={toggle} size="md" color="#fff" />
+        <Burger opened={opened} onClick={toggle} size="md" color="#000" />
       </Menu.Target>
       <Menu.Dropdown>
         <ul className="flex flex-col gap-2">
