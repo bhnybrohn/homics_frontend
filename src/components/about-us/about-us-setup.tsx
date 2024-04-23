@@ -28,7 +28,7 @@ export const AboutUsSetup = () => {
             <h2 className="text-[clamp(1.5rem,2.5vw,2.5rem)] text-white font-semibold">
               About Us
             </h2>
-            <p className="text-sm font-medium text-white max-w-[38.5rem] max-[1265px]:pb-8">
+            <p className="text-[clamp(0.9rem,1.25vw,1.25rem)] font-medium text-white max-w-[38.5rem] max-[1265px]:pb-8">
               At Homics, we specialise in providing services designed to address
               key challenges, drive efficiency, and empower agribusinesses to
               achieve their goals and thrive in today's competitive landscape.
