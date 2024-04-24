@@ -9,12 +9,20 @@ const images = [
   // "/hero-section/fourth-bg.jpeg",
 ];
 
+const imageTexts = [
+  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. ",
+  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+];
+
 export const AboutUsSetup = () => {
   const [index, setIndex] = useState(0);
+  const [textIndex, setTextIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
+      setTextIndex((prevIndex) => (prevIndex + 1) % imageTexts.length);
     }, 5000);
 
     return () => clearInterval(interval);
@@ -49,14 +57,7 @@ export const AboutUsSetup = () => {
                 />
               </figure>
               <p className="w-[75%] max-[1000px]:w-full mx-auto text-center font-medium text-sm text-white">
-                Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
-                metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-                interdum tellus elit sed risus. Maecenas eget condimentum velit,
-                sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos. Praesent
-                auctor purus Morbi convallis convallis diam sit amet lacinia.
-                Aliquam in elementum tellus.
+                {imageTexts[textIndex]}
               </p>
             </article>
             <figure className="max-[851px]:hidden bg-[#D9D9D9] rounded-3xl w-[60%] h-[75%] absolute top-[clamp(3rem,6vw,6rem)] right-[clamp(8rem,16.5vw,16.5rem)] -z-10" />
