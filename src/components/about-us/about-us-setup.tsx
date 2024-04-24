@@ -3,9 +3,9 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const images = [
-  "/hero-section/first-bg.jpeg",
-  "/hero-section/second-bg.jpeg",
-  "/hero-section/third-bg.jpeg",
+  "/hero-section/about-1.jpg",
+  "/hero-section/about-2.jpg",
+  "/hero-section/about-3.jpg",
   // "/hero-section/fourth-bg.jpeg",
 ];
 
