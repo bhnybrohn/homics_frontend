@@ -48,7 +48,7 @@ export const AboutUsSetup = () => {
             <article className="bg-homics-dark-500 p-8 rounded-2xl flex flex-col gap-[clamp(2px,2vw,32px)]">
               <figure className="w-full h-[clamp(10rem,28.25vw,28.25rem)]">
                 <Image
-                  className="!w-full !h-full"
+                  className="!w-full !h-full object-cover aspect-square"
                   src={images[index]}
                   width={100}
                   height={100}
