@@ -3,10 +3,8 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const images = [
-  "/hero-section/about-1.jpg",
-  "/hero-section/about-2.jpg",
-  "/hero-section/about-3.jpg",
-  // "/hero-section/fourth-bg.jpeg",
+  "https://res.cloudinary.com/xenerr/image/upload/v1714048690/dhrdhijhov6fna6wds5l.jpg",
+  "https://res.cloudinary.com/xenerr/image/upload/v1714048690/rmeytfnggl8iomb1zlgj.jpg",
 ];
 
 const imageTexts = [
@@ -47,13 +45,15 @@ export const AboutUsSetup = () => {
           <section className="w-[60%] mx-auto max-[850px]:w-[90%] ">
             <article className="bg-homics-dark-500 p-8 rounded-2xl flex flex-col gap-[clamp(2px,2vw,32px)]">
               <figure className="w-full h-[clamp(10rem,28.25vw,28.25rem)]">
-                <Image
+                <div
                   className="!w-full !h-full object-cover aspect-square"
-                  src={images[index]}
-                  width={100}
-                  height={100}
-                  alt=""
-                  priority
+                  key={index}
+                  style={{
+                    background: `url(${images[index]})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    backgroundPosition: " center",
+                  }}
                 />
               </figure>
               <p className="w-[75%] max-[1000px]:w-full mx-auto text-center font-medium text-sm text-white">
