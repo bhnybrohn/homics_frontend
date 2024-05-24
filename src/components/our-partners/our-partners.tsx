@@ -2,11 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 const data = [
-  "/our-partners/unilever.svg",
-  "/our-partners/arla.svg",
-  "/our-partners/bill-melinda.svg",
-  "/our-partners/usaid.svg",
-  "/our-partners/danone.svg",
+  "/our-partners/USSOY.svg",
+  "/our-partners/USSEC-Full.svg",
+  "/our-partners/Group.svg",
+  "/our-partners/Clip.svg"
 ];
 
 export const OurPartners = () => {
