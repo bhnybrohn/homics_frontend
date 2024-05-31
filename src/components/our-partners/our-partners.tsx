@@ -5,7 +5,8 @@ const data = [
   "/our-partners/USSOY.svg",
   "/our-partners/USSEC-Full.svg",
   "/our-partners/Group.svg",
-  "/our-partners/Clip.svg"
+  "/our-partners/Clip.svg",
+  "/our-partners/logo2.svg"
 ];
 
 export const OurPartners = () => {
