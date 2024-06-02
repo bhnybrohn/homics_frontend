@@ -1,69 +1,68 @@
 import { MainLayout } from "@/layout";
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { TeamCard } from "./team-card";
+import { useRouter } from "next/router";
+import { randomId } from "@mantine/hooks";
 
 const images = [
   "https://res.cloudinary.com/xenerr/image/upload/v1716542861/homicss_1_e2wfvg.png",
   // "https://res.cloudinary.com/xenerr/image/upload/v1714048690/rmeytfnggl8iomb1zlgj.jpg",
 ];
 
-const imageTexts = [
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. ",
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-];
-
 export const OurTeamSetup = () => {
-  const [index, setIndex] = useState(0);
-  const [textIndex, setTextIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % images.length);
-      setTextIndex((prevIndex) => (prevIndex + 1) % imageTexts.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
+  const { push } = useRouter();
 
   return (
     <MainLayout>
       <main className="flex flex-col h-full">
-        <section className="px-[clamp(2rem,4.2vw,4.2rem)] py-[clamp(4rem,6vw,6rem)] bg-[#29BF12] rounded-b-3xl">
+        <section className="px-[clamp(2rem,4.2vw,4.2rem)] py-[clamp(4rem,6vw,6rem)] bg-[#043E35] ">
           <div className="flex items-center gap-8 justify-between max-w-[1440px] mx-auto max-[850px]:flex-col">
-            <h2 className="text-[clamp(1.5rem,2.5vw,2.5rem)] text-white font-semibold">
-              Our Team
-            </h2>
-            <p className="text-[clamp(0.9rem,1.25vw,1.25rem)] font-medium text-white max-w-[38.5rem] max-[1265px]:pb-8">
-              At Homics, we specialise in providing services designed to address
-              key challenges, drive efficiency, and empower agribusinesses to
-              achieve their goals and thrive in today's competitive landscape.
-            </p>
-          </div>
-        </section>
-        <div className="max-w-[1440px] mx-auto pb-[8rem] max-[851px]:pb-4 relative overflow-auto mt-[clamp(-4rem,8vw,-8rem)] z-10">
-          <section className="w-[60%] mx-auto max-[850px]:w-[90%] ">
-            <article className="bg-homics-dark-500 p-8 rounded-2xl flex flex-col gap-[clamp(2px,2vw,32px)]">
-              <figure className="w-full h-[clamp(10rem,28.25vw,28.25rem)]">
+            <div className="flex flex-col gap-3">
+              <button
+                type="button"
+                className="px-2 py-1 rounded-xl border border-white w-fit animate-bounce text-sm text-white"
+                onClick={() => push(`/our-team/${randomId()}`)}
+              >
+                The team
+              </button>
+              <h2 className="text-[clamp(1.5rem,2.5vw,2.5rem)] text-[#54E53E] font-semibold max-w-[450px]">
+                Meet our team of dedicated professionals
+              </h2>
+              <p className="text-[clamp(1rem,2vw,2rem)] font-thin text-white max-w-[32.5rem] max-[1265px]:pb-8">
+                With over 50 years or combined experience our team is ready to
+                take on any tasks
+              </p>
+            </div>
+            <article className="flex flex-col gap-2 max-[850]:w-full">
+              <figure className="w-[clamp(18rem,32vw,32rem)] h-auto max-[850]:w-full">
                 <div
-                  className="!w-full !h-full object-cover aspect-square"
-                  key={index}
+                  className="!w-full !h-[45vh] rounded-3xl !min-w-[19.5rem]"
                   style={{
-                    background: `url(${images[index]})`,
+                    background: `url(${images})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     backgroundPosition: " center",
                   }}
                 />
+                <div className="flex flex-col">
+                  <h3 className="text-white text-[clamp(1.3rem,2vw,2rem)]">
+                    Michael David
+                  </h3>
+                  <p className="text-[1.125rem] text-gray-400">Founder / CEO</p>
+                </div>
               </figure>
-              <p className="w-[75%] max-[1000px]:w-full mx-auto text-center font-medium text-sm text-white">
-                {imageTexts[textIndex]}
-              </p>
             </article>
-            <figure className="max-[851px]:hidden bg-[#D9D9D9] rounded-3xl w-[60%] h-[75%] absolute top-[clamp(3rem,6vw,6rem)] right-[clamp(8rem,16.5vw,16.5rem)] -z-10" />
-            <figure className="max-[851px]:hidden bg-[#D9D9D9]/50 rounded-3xl w-[60%] h-[75%] absolute top-[clamp(4rem,8vw,8rem)] right-[clamp(6rem,15vw,15rem)] -z-10" />
-          </section>
-        </div>
+          </div>
+        </section>
+        <section className="p-[clamp(2rem,4.2vw,4.2rem)]">
+          <article className="grid grid-cols-3 gap-[clamp(1.2rem,2vw,2rem)] max-[1020px]:grid-cols-2 max-sm:grid-cols-1">
+            {Array(6)
+              .fill(0)
+              .map((_, idx) => (
+                <TeamCard key={idx} />
+              ))}
+          </article>
+        </section>
       </main>
     </MainLayout>
   );

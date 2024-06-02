@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "custom-lg": "1020px",
+        "custom-md": "685px",
+      },
       colors: {
         homics: {
           success: {
