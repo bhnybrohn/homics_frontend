@@ -4,7 +4,6 @@ import { Projects } from "@/projects";
 import { useEffect, useState } from "react";
 
 const images = [
-  "/hero-section/first.jpg",
   "/hero-section/second.jpg",
   "/hero-section/third.jpg",
   "/hero-section/fourth.jpg",
