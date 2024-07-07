@@ -1,4 +1,3 @@
-import { LandingPageLayout } from "@/layout";
 import clsx from "clsx";
 import React from "react";
 
@@ -63,7 +62,7 @@ export const OurProjects = () => {
               <p
                 className={clsx(
                   idx === 1 || idx === 3 ? "text-[#000]" : "text-[#666666]",
-                  "max-w-[16.75rem] text-sm font-medium"
+                  "text-sm font-medium"
                 )}
               >
                 {text}

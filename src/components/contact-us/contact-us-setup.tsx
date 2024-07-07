@@ -43,7 +43,7 @@ export const ContactUsSetup = () => {
     <MainLayout>
       <main className="flex flex-col h-full gap-8">
         <section className="px-[clamp(1rem,4.2vw,4.2rem)] py-[clamp(4rem,6vw,6rem)] bg-[#29BF12] rounded-b-3xl">
-          <div className="flex items-center justify-between max-w-[1440px] mx-auto max-[850px]:flex-col gap-[4vw]">
+          <div className="flex items-center justify-between max-w-[1440px] mx-auto max-custom-851:flex-col gap-[4vw]">
             <div className="flex flex-col gap-4 flex-1">
               <h3 className="text-[1.25rem] font-semibold text-white">
                 Contact us
@@ -75,7 +75,7 @@ export const ContactUsSetup = () => {
         </section>
         <figure className="py-[clamp(3rem,5vw,5rem)] px-[clamp(1rem,3vw,3rem)] ">
           <div className="max-w-[1440px] mx-auto">
-            <article className="bg-homics-dark-500 p-[clamp(1rem,2vw,2rem)] rounded-lg flex items-center gap-4 justify-between w-[80%] mx-auto max-[580px]:flex-col max-[580px]:w-full box-shadow">
+            <article className="bg-homics-dark-500 p-[clamp(1rem,2vw,2rem)] rounded-lg flex items-center gap-4 justify-between w-[80%] mx-auto max-custom-580:flex-col max-custom-580:w-full box-shadow">
               <ul className="flex flex-col gap-8">
                 <h3 className="text-base text-white font-medium">Info</h3>
                 {data.map(({ name, icon }, idx) => (
@@ -86,7 +86,7 @@ export const ContactUsSetup = () => {
                 ))}
               </ul>
               <Divider
-                className="max-[580px]:hidden"
+                className="max-custom-580:hidden"
                 orientation="vertical"
                 color="#535353"
               />

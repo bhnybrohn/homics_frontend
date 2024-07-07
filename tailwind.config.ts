@@ -11,6 +11,10 @@ const config: Config = {
       screens: {
         "custom-lg": "1020px",
         "custom-md": "685px",
+        "custom-851": "851px",
+        "custom-505": "505px",
+        "custom-580": "580px",
+        "custom-435": "435px",
       },
       colors: {
         homics: {
