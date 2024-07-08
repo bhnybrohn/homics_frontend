@@ -46,16 +46,10 @@ export const ContactUsSetup = () => {
           <div className="flex items-center justify-between max-w-[1440px] mx-auto max-[850px]:flex-col gap-[4vw]">
             <div className="flex flex-col gap-4 flex-1">
               <h3 className="text-[1.25rem] font-semibold text-white">
-                Contact us
+                Get in Touch with Homics International
               </h3>
               <p className="text-white text-sm font-medium max-w-[37rem]">
-                Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
-                metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-                interdum tellus elit sed risus. Maecenas eget condimentum velit,
-                sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
-                torquent llis diam sit amet lacinia. Aliquam in elementum
-                tellus.
+                Ready to elevate your agribusiness? Fill out our contact form to connect with our experts and explore how we can help you achieve your goals.
               </p>
             </div>
             <div className="bg-white rounded-xl p-[clamp(1.2rem,2vw,2rem)] flex flex-col gap-4 w-full flex-1">
