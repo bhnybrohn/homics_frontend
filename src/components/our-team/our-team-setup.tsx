@@ -46,7 +46,7 @@ export const OurTeamSetup = () => {
                 />
                 <div className="flex flex-col">
                   <h3 className="text-white text-[clamp(1.3rem,2vw,2rem)]">
-                    Michael David
+                    Michael David (Ph.d)
                   </h3>
                   <p className="text-[1.125rem] text-gray-400">Founder / CEO</p>
                 </div>
