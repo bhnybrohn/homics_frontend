@@ -34,8 +34,8 @@ export const Footer = () => {
   return (
     <main className="bg-homics-dark-500 p-[clamp(1rem,2vw,2rem)]">
       <section className="max-w-[1440px] mx-auto flex flex-col gap-4">
-        <article className="flex items-center max-[858px]:flex-col gap-[clamp(1.2rem,2vw,2rem)] justify-between py-8 border-b border-[#ccc]">
-          <figure className="w-[70%] flex items-center justify-between max-[858px]:w-full max-[858px]:items-start max-[505px]:flex-col max-[505px]:gap-3">
+        <article className="flex items-center max-custom-851:flex-col gap-[clamp(1.2rem,2vw,2rem)] justify-between py-8 border-b border-[#ccc]">
+          <figure className="w-[70%] flex items-center justify-between max-custom-851:w-full max-custom-851:items-start max-custom-505::flex-col max-custom-505:gap-3">
             {data.map(({ title, children, link }, idx) => (
               <Link href={link} key={idx} className="flex flex-col gap-1">
                 <h3 className="text-base text-white font-normal hover:text-homics-success-400">
@@ -49,7 +49,7 @@ export const Footer = () => {
               </Link>
             ))}
           </figure>
-          <div className="flex-1 flex flex-col gap-2 items-end justify-end max-[858px]:w-full max-[858px]:items-start">
+          <div className="flex-1 flex flex-col gap-2 items-end justify-end max-custom-851:w-full max-custom-851:items-start">
             <p className="text-[1.125rem] text-white font-medium">
               Subscribe to our newsletter
             </p>
@@ -86,7 +86,7 @@ export const Footer = () => {
             </div>
           </div>
         </article>
-        <article className="flex items-center gap-8 max-[530px]:flex-col max-[530px]:items-start">
+        <article className="flex items-center gap-8 max-custom-505:flex-col max-custom-505:items-start">
           <div className="flex-1">
             <figure className="w-[clamp(6rem,10vw,10rem)] h-[clamp(2rem,2.5vw,2.5rem)]">
               <Image
@@ -99,8 +99,8 @@ export const Footer = () => {
               />
             </figure>
           </div>
-          <div className="flex flex-col gap-5 flex-1  max-[435px]:w-full">
-            <section className=" flex items-start border-b border-[#ccc] pb-4 gap-8 max-[435px]:flex-col ">
+          <div className="flex flex-col gap-5 flex-1  max-custom-435:w-full">
+            <section className=" flex items-start border-b border-[#ccc] pb-4 gap-8 max-custom-435:flex-col ">
               <div className="flex flex-col gap-1">
                 <h3 className="teext-base font-medium text-white">Address</h3>
                 <p className="text-sm font-normal text-white">
@@ -129,7 +129,7 @@ export const Footer = () => {
                 </p>
               </div>
             </section>
-            <div className="flex items-center justify-between gap-5 max-[435px]:flex-col max-[435px]:items-start">
+            <div className="flex items-center justify-between gap-5 max-custom-435:flex-col max-custom-435:items-start">
               <p className="text-sm font-normal text-white">
                 Privacy Policy / Terms of Use / Cookie Policy
               </p>
