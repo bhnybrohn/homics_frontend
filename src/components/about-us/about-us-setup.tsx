@@ -16,18 +16,18 @@ const imageTexts = [
 
 const data = [
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Our Vision",
+    text: "To be the leading catalyst for agricultural transformation worldwide and a benchmark for agribusiness excellence globally.",
     bg: "url(/hero-section/bg-1.svg)",
   },
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Our Mission",
+    text: "To empower agribusinesses through innovative solutions, sustainable practices, and strategic insights that drive growth and enhance food security.",
     bg: "url(/hero-section/bg-1.svg)",
   },
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Our Core Values",
+    text: "We leverage innovative technologies to solve agricultural challenges while maintaining integrity and sustainability. Our commitment to excellence and collaboration ensures top-notch service and strong relationships with clients and partners.",
     bg: "url(/hero-section/bg-3.svg)",
   },
 ];
@@ -86,7 +86,7 @@ export const AboutUsSetup = () => {
         <section className="bg-[#29BF12] p-[clamp(1rem,2vw,2rem)]">
           <div className="max-[1440px] mx-auto flex flex-col gap-8 pt-[clamp(1.5rem,4.5vw,4.5rem)] px-[clamp(1rem,2vw,2rem)] pb-[clamp(1rem,2vw,2rem)]">
             <h3 className="text-white font-semibold text-[1.25rem] text-center">
-              Our accomplishments
+              More About Us
             </h3>
             <figure className="grid grid-cols-3 max-[1000px]:grid-cols-3 max-[800px]:grid-cols-2 max-[520px]:grid-cols-1 gap-4">
               {data.map(({ title, text, bg }, idx) => (

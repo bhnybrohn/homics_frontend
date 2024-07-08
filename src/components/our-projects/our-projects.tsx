@@ -3,23 +3,23 @@ import React from "react";
 
 const data = [
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Homics: Enhancing Global Agricultural Productivity and Sustainability",
+    text: "Over the years, we have partnered with numerous global agricultural enterprises, helping them enhance productivity, improve efficiency, and achieve sustainable growth. Our work has had a significant impact on food security, rural development, and economic prosperity across various regions.",
     bg: "url(/hero-section/bg-1.svg)",
   },
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Homics International:Agricultural Revolution for a Sustainable Future",
+    text: "At Homics International, we are more than just a service provider; we are a driving force behind the agricultural revolution. Join us as we continue to lead the way in creating a more sustainable and prosperous future for agriculture worldwide.",
     bg: "url(/hero-section/bg-2.svg)",
   },
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Homics: Enhancing Global Agricultural Productivity and Sustainability",
+    text: "Over the years, we have partnered with numerous global agricultural enterprises, helping them enhance productivity, improve efficiency, and achieve sustainable growth. Our work has had a significant impact on food security, rural development, and economic prosperity across various regions.",
     bg: "url(/hero-section/bg-3.svg)",
   },
   {
-    title: "Consulting Support",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class",
+    title: "Homics International:Agricultural Revolution for a Sustainable Future",
+    text: "At Homics International, we are more than just a service provider; we are a driving force behind the agricultural revolution. Join us as we continue to lead the way in creating a more sustainable and prosperous future for agriculture worldwide.",
     bg: "url(/hero-section/bg-4.svg)",
   },
 ];
@@ -36,7 +36,7 @@ export const OurProjects = () => {
     >
       <section className="max-[1440px] mx-auto flex flex-col gap-8 pt-[clamp(1.5rem,4.5vw,4.5rem)] px-[clamp(1rem,2vw,2rem)] pb-[clamp(1rem,2vw,2rem)]">
         <h3 className="text-white font-semibold text-[1.25rem] text-center">
-          Some of our impressive work
+          Our Impressive Impact
         </h3>
         <figure className="grid grid-cols-4 max-[1000px]:grid-cols-3 max-[800px]:grid-cols-2 max-[520px]:grid-cols-1 gap-4">
           {data.map(({ title, text, bg }, idx) => (

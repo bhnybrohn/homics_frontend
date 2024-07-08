@@ -56,7 +56,7 @@ export const OurTeamSetup = () => {
         </section>
         <section className="p-[clamp(2rem,4.2vw,4.2rem)]">
           <article className="grid grid-cols-3 gap-[clamp(1.2rem,2vw,2rem)] max-[1020px]:grid-cols-2 max-sm:grid-cols-1">
-            {Array(6)
+            {Array(1)
               .fill(0)
               .map((_, idx) => (
                 <TeamCard key={idx} />
