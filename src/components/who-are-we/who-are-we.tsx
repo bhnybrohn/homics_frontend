@@ -22,6 +22,11 @@ export const WhoAreWe = () => {
             </span>{" "}
             to excellence permeates every step of the agricultural value chain,
             ensuring sustainable and impactful outcomes for our partners.
+            Founded on the principles of {" "}
+            <span className="text-homics-success-500 font-semibold">
+              excellence and innovation{" "}
+            </span>{" "},
+            Homics International has become a trusted partner for farmers, agribusinesses, and policymakers around the world.
           </p>
         </div>
         <section className="flex items-center gap-4 max-[700px]:flex-col">

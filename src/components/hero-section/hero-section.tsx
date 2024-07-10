@@ -53,9 +53,7 @@ export const HeroSection = () => {
                 transition={{ duration: 0.5 }}
                 animate={{ opacity: 1, y: 0 }}
               >
-                We specialise in connecting you with the finest agricultural
-                products sourced directly from trusted farmers and producers
-                around the country.
+                At Homics International, we are dedicated to transforming the agricultural landscape globally. We offer a comprehensive suite of services designed to optimize your operations, enhance productivity, and drive sustainable growth.
               </motion.p>
               <div>
                 <SecondaryButton

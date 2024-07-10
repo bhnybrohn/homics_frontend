@@ -3,22 +3,22 @@ import React from "react";
 
 const data = [
   {
-    title: "Homics: Enhancing Global Agricultural Productivity and Sustainability",
+    title: "Enhancing Global Agricultural Productivity and Sustainability",
     text: "Over the years, we have partnered with numerous global agricultural enterprises, helping them enhance productivity, improve efficiency, and achieve sustainable growth. Our work has had a significant impact on food security, rural development, and economic prosperity across various regions.",
     bg: "url(/hero-section/bg-1.svg)",
   },
   {
-    title: "Homics International:Agricultural Revolution for a Sustainable Future",
+    title: "Agricultural Revolution for a Sustainable Future",
     text: "At Homics International, we are more than just a service provider; we are a driving force behind the agricultural revolution. Join us as we continue to lead the way in creating a more sustainable and prosperous future for agriculture worldwide.",
     bg: "url(/hero-section/bg-2.svg)",
   },
   {
-    title: "Homics: Enhancing Global Agricultural Productivity and Sustainability",
+    title: " Enhancing Global Agricultural Productivity and Sustainability",
     text: "Over the years, we have partnered with numerous global agricultural enterprises, helping them enhance productivity, improve efficiency, and achieve sustainable growth. Our work has had a significant impact on food security, rural development, and economic prosperity across various regions.",
     bg: "url(/hero-section/bg-3.svg)",
   },
   {
-    title: "Homics International:Agricultural Revolution for a Sustainable Future",
+    title: "Agricultural Revolution for a Sustainable Future",
     text: "At Homics International, we are more than just a service provider; we are a driving force behind the agricultural revolution. Join us as we continue to lead the way in creating a more sustainable and prosperous future for agriculture worldwide.",
     bg: "url(/hero-section/bg-4.svg)",
   },

@@ -10,18 +10,18 @@ import Link from "next/link";
 const data = [
   {
     title: "Home",
-    children: ["Collaborate with us"],
+    // children: ["Collaborate with us"],
     link: "/",
   },
   {
     title: "About Us",
-    children: ["Collaborate with us"],
+    // children: ["Collaborate with us"],
     link: "/about-us",
   },
   {
-    title: "Community",
-    children: ["Collaborate with us"],
-    link: "/community",
+    title: "Our Team",
+    // children: ["Collaborate with us"],
+    link: "/our-team",
   },
   {
     title: "Contact Us",
@@ -41,11 +41,11 @@ export const Footer = () => {
                 <h3 className="text-base text-white font-normal hover:text-homics-success-400">
                   {title}
                 </h3>
-                {children.map((item, index) => (
+                {/* {children.map((item, index) => (
                   <p className="text-sm font-normal text-white" key={index}>
                     {item}
                   </p>
-                ))}
+                ))} */}
               </Link>
             ))}
           </figure>

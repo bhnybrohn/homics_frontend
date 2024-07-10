@@ -29,8 +29,7 @@ export const OurTeamSetup = () => {
                 Meet our team of dedicated professionals
               </h2>
               <p className="text-[clamp(1rem,2vw,2rem)] font-thin text-white max-w-[32.5rem] max-[1265px]:pb-8">
-                With over 50 years or combined experience our team is ready to
-                take on any tasks
+                With over 50 years of combined experience, our team of seasoned professionals combines deep industry knowledge with a passion for agriculture, enabling us to deliver solutions that address the sector's unique challenges.
               </p>
             </div>
             <article className="flex flex-col gap-2 max-[850]:w-full">
@@ -46,7 +45,7 @@ export const OurTeamSetup = () => {
                 />
                 <div className="flex flex-col">
                   <h3 className="text-white text-[clamp(1.3rem,2vw,2rem)]">
-                    Michael David (Ph.d)
+                    Dr  Michael David Ph.D
                   </h3>
                   <p className="text-[1.125rem] text-gray-400">Founder / CEO</p>
                 </div>

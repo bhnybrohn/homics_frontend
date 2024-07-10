@@ -35,7 +35,7 @@ export const Navbar = () => {
           />
         </figure>
 
-        <ul className="flex items-center gap-4 max-[550px]:hidden">
+        <ul className="flex items-center gap-6 max-[550px]:hidden">
           {data.map(({ name, link }, idx) => (
             <Link
               key={idx}
