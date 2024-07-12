@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { randomId } from "@mantine/hooks";
 
 const images = [
-  "https://res.cloudinary.com/xenerr/image/upload/v1716542861/homicss_1_e2wfvg.png",
+  "https://res.cloudinary.com/xenerr/image/upload/v1720786938/IMG_3911_ofap9s.jpg",
   // "https://res.cloudinary.com/xenerr/image/upload/v1714048690/rmeytfnggl8iomb1zlgj.jpg",
 ];
 

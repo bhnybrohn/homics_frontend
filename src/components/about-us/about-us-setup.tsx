@@ -54,7 +54,9 @@ export const AboutUsSetup = () => {
               About Us
             </h2>
             <p className="text-[clamp(0.9rem,1.25vw,1.25rem)] font-medium text-white max-w-[38.5rem] max-[1265px]:pb-8">
-              At Homics International, we are dedicated to transforming the agricultural landscape globally. We offer a comprehensive suite of services designed to optimize your operations, enhance productivity, and drive sustainable growth.
+              At Homics, we specialise in providing services designed to address
+              key challenges, drive efficiency, and empower agribusinesses to
+              achieve their goals and thrive in today's competitive landscape.
             </p>
           </div>
         </section>
