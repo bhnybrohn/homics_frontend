@@ -4,8 +4,12 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const images = [
+  "https://res.cloudinary.com/xenerr/image/upload/v1723219389/WhatsApp_Image_2024-08-09_at_16.29.03_374acf68_nrwmiz.jpg",
+  "https://res.cloudinary.com/xenerr/image/upload/v1723219388/WhatsApp_Image_2024-08-09_at_16.29.03_4a4bcd83_tlxbte.jpg",
   "https://res.cloudinary.com/xenerr/image/upload/v1714048690/dhrdhijhov6fna6wds5l.jpg",
+  "https://res.cloudinary.com/xenerr/image/upload/v1723219388/WhatsApp_Image_2024-08-09_at_16.29.03_8c093f34_ceb9jg.jpg",
   "https://res.cloudinary.com/xenerr/image/upload/v1714048690/rmeytfnggl8iomb1zlgj.jpg",
+  "https://res.cloudinary.com/xenerr/image/upload/v1723219389/WhatsApp_Image_2024-08-09_at_16.29.03_a85a72dd_f6idfw.jpg"
 ];
 
 const imageTexts = [
