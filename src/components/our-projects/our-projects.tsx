@@ -96,7 +96,7 @@ export const OurProjects: React.FC = () => {
         </h3>
         <figure className="grid grid-cols-4 max-[1000px]:grid-cols-3 max-[800px]:grid-cols-2 max-[520px]:grid-cols-1 gap-4">
           {data.map(({ title, text, bg }, idx) => {
-            const truncatedText = truncateText(text, 100);
+            const truncatedText = truncateText(text, 50);
             const isTruncated = truncatedText !== text;
 
             return (

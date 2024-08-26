@@ -8,15 +8,15 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const data = [
   {
-    name: "Email@gmail.com",
+    name: "info@homicsinternational.com",
     icon: <RxEnvelopeClosed size={18} color="white" />,
   },
   {
-    name: "09087572878,08076468647",
+    name: "09087572878, 08076468647",
     icon: <FaPhoneAlt size={18} color="white" />,
   },
   {
-    name: "NO 6 dopemu drive ,along mullholand road lagos ",
+    name: "No 6 dopemu drive ,along mullholand road lagos ",
     icon: <FaLocationDot size={18} color="white" />,
   },
 ];
