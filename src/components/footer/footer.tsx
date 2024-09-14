@@ -125,7 +125,7 @@ export const Footer = () => {
               <div className="flex flex-col gap-1">
                 <h3 className="teext-base font-medium text-white">Email</h3>
                 <p className="text-sm font-normal text-white">
-                  email@gmail.com
+                  info@homicsinternational.com
                 </p>
               </div>
             </section>

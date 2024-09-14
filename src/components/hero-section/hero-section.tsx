@@ -1,7 +1,7 @@
 import { SecondaryButton } from "@/shared";
 import { motion, AnimatePresence } from "framer-motion";
 import { Projects } from "@/projects";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const images = [
   "/hero-section/second.jpg",
@@ -12,11 +12,11 @@ const images = [
   "https://res.cloudinary.com/xenerr/image/upload/v1723219389/WhatsApp_Image_2024-08-09_at_16.29.03_a21b560f_uuwh3b.jpg",
   "/hero-section/fourth.jpg",
   // "https://res.cloudinary.com/xenerr/image/upload/v1723219388/WhatsApp_Image_2024-08-09_at_16.29.03_8c093f34_ceb9jg.jpg",
-
 ];
 
 export const HeroSection = () => {
   const [index, setIndex] = useState(0);
+  const projectsRef = useRef(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,6 +25,13 @@ export const HeroSection = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  const handleScrollToProjects = () => {
+    const projectsElement = projectsRef.current as HTMLElement | null;
+    if (projectsElement) {
+      projectsElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <AnimatePresence>
@@ -68,12 +75,15 @@ export const HeroSection = () => {
                   title="Learn more"
                   bg="#fff"
                   className="text-black"
+                  onClick={handleScrollToProjects}
                 />
               </div>
             </div>
           </figure>
         </motion.section>
-        <Projects />
+        <div ref={projectsRef}>
+          <Projects />
+        </div>
       </main>
     </AnimatePresence>
   );

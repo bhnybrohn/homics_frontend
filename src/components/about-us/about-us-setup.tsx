@@ -13,10 +13,9 @@ const images = [
 ];
 
 const imageTexts = [
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. ",
-  " Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-];
+  "Dr. Michael David, CEO of Homics International LLC, addresses a diverse audience, including US soy industry leaders and key figures from Nigeria's soybean value chain, at the Nigeria Now conference held in Atlanta in 2022. Organized by the US Soy, this event aimed to foster long-term, mutually beneficial relationships between the global soy industry and Nigerian stakeholders. ",
+  "Dr. Michael David, CEO of Homics International LLC, addresses a diverse audience, including US soy industry leaders and key figures from Nigeria's soybean value chain, at the Nigeria Now conference held in Atlanta in 2022. Organized by the US Soy, this event aimed to foster long-term, mutually beneficial relationships between the global soy industry and Nigerian stakeholders. ",
+  "Dr. Michael David, CEO of Homics International LLC, addresses a diverse audience, including US soy industry leaders and key figures from Nigeria's soybean value chain, at the Nigeria Now conference held in Atlanta in 2022. Organized by the US Soy, this event aimed to foster long-term, mutually beneficial relationships between the global soy industry and Nigerian stakeholders. "];
 
 const data = [
   {

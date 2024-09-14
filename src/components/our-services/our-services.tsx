@@ -16,16 +16,16 @@ const data = [
     text: "Invest in your team's success with our capacity-building programs. We offer training, workshops, mentorship, and skill development initiatives tailored to the agribusiness sector. From technical expertise to managerial skills and entrepreneurial acumen, we empower your workforce to innovate, adapt, and drive sustainable growth in a rapidly evolving industry.",
     icon: "/hero-section/bulb.svg",
   },
-  {
-    title: "Supply Chain Management",
-    text: "Our supply chain management services ensure smooth operations from farm to market. We specialize in procurement, logistics, inventory management, and distribution, enabling you to access inputs efficiently, minimize waste, and deliver products on time. With real-time tracking and tailored solutions, we enhance reliability, reduce risks, and maximize your supply chain performance.",
-    icon: "/hero-section/farm-remove.svg",
-  },
-  {
-    title: "Value chain analysis",
-    text: " Unlock the full potential of your agribusiness with our comprehensive value chain analysis. We dissect every stage of production, from sourcing to distribution, to identify areas of value addition and streamline processes. By optimizing your value chain, we help you reduce costs, improve product quality, and stay competitive in today's dynamic market.",
-    icon: "/hero-section/chain.svg",
-  },
+  // {
+  //   title: "Supply Chain Management",
+  //   text: "Our supply chain management services ensure smooth operations from farm to market. We specialize in procurement, logistics, inventory management, and distribution, enabling you to access inputs efficiently, minimize waste, and deliver products on time. With real-time tracking and tailored solutions, we enhance reliability, reduce risks, and maximize your supply chain performance.",
+  //   icon: "/hero-section/farm-remove.svg",
+  // },
+  // {
+  //   title: "Value chain analysis",
+  //   text: " Unlock the full potential of your agribusiness with our comprehensive value chain analysis. We dissect every stage of production, from sourcing to distribution, to identify areas of value addition and streamline processes. By optimizing your value chain, we help you reduce costs, improve product quality, and stay competitive in today's dynamic market.",
+  //   icon: "/hero-section/chain.svg",
+  // },
 ];
 
 export const OurServices = () => {

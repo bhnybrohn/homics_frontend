@@ -25,14 +25,14 @@ export const OurTeamSetup = () => {
               >
                 The team
               </button>
-              <h2 className="text-[clamp(1.5rem,2.5vw,2.5rem)] text-[#54E53E] font-semibold max-w-[450px]">
+              <h2 className="text-white text-2xl">
                 Meet our team of dedicated professionals
               </h2>
-              <p className="text-[clamp(1rem,2vw,2rem)] font-thin text-white max-w-[32.5rem] max-[1265px]:pb-8">
-                With over 50 years of combined experience, our team of seasoned professionals combines deep industry knowledge with a passion for agriculture, enabling us to deliver solutions that address the sector's unique challenges.
+              <p className=" font-thin text-xl text-white ">
+                With over 25 years of combined experience, our team of seasoned professionals combines deep industry knowledge with a passion for agriculture, enabling us to deliver solutions that address the sector's unique challenges.
               </p>
             </div>
-            <article className="flex flex-col gap-2 max-[850]:w-full">
+            {/* <article className="flex flex-col gap-2 max-[850]:w-full">
               <figure className="w-[clamp(18rem,32vw,32rem)] h-auto max-[850]:w-full">
                 <div
                   className="!w-full !h-[45vh] rounded-3xl !min-w-[19.5rem]"
@@ -43,23 +43,24 @@ export const OurTeamSetup = () => {
                     backgroundPosition: " center",
                   }}
                 />
-                <div className="flex flex-col">
-                  <h3 className="text-white text-[clamp(1.3rem,2vw,2rem)]">
-                    Dr  Michael David Ph.D
-                  </h3>
-                  <p className="text-[1.125rem] text-gray-400">Founder / CEO</p>
-                </div>
+
               </figure>
-            </article>
+              <div className="flex flex-col">
+                <h3 className="text-white text-[clamp(1.3rem,2vw,2rem)]">
+                  Michael David Ph.D
+                </h3>
+                <p className="text-[1.125rem] text-gray-400">Founder / CEO</p>
+              </div>
+            </article> */}
           </div>
         </section>
         <section className="p-[clamp(2rem,4.2vw,4.2rem)]">
-          <article className="grid grid-cols-3 gap-[clamp(1.2rem,2vw,2rem)] max-[1020px]:grid-cols-2 max-sm:grid-cols-1">
-            {Array(1)
+          <article className="grid grid-cols-4 gap-[clamp(1.2rem,2vw,2rem)] max-[1020px]:grid-cols-2 max-sm:grid-cols-1">
+            {/* {Array(1)
               .fill(0)
-              .map((_, idx) => (
-                <TeamCard key={idx} />
-              ))}
+              .map((_, idx) => ( */}
+            <TeamCard />
+            {/* // ))} */}
           </article>
         </section>
       </main>

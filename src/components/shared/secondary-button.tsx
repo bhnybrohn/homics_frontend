@@ -7,12 +7,14 @@ export const SecondaryButton = ({
   w,
   bg,
   className,
+  onClick, // Add onClick prop
 }: {
   title?: string;
   type: "button" | "submit";
   w?: number;
   bg?: string;
   className?: string;
+  onClick?: () => void; // Specify the type for onClick handler
 }) => {
   return (
     <Button
@@ -30,6 +32,7 @@ export const SecondaryButton = ({
           },
         },
       }}
+      onClick={onClick} // Pass the onClick prop here
     >
       {title}
     </Button>
