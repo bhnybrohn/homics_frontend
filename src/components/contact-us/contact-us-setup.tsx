@@ -12,11 +12,11 @@ const data = [
     icon: <RxEnvelopeClosed size={18} color="white" />,
   },
   {
-    name: "09087572878, 08076468647",
+    name: "+234(0)803 300 8018",
     icon: <FaPhoneAlt size={18} color="white" />,
   },
   {
-    name: "No 6 dopemu drive ,along mullholand road lagos ",
+    name: "A4-302, 1004 Estates Victoria Island ",
     icon: <FaLocationDot size={18} color="white" />,
   },
 ];

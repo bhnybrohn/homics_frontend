@@ -104,7 +104,9 @@ export const Footer = () => {
               <div className="flex flex-col gap-1">
                 <h3 className="teext-base font-medium text-white">Address</h3>
                 <p className="text-sm font-normal text-white">
-                  39A health road off palms Lekki Lagos State
+                  A4-302, 1004 Estates
+                  Victoria Island
+
                 </p>
                 <div className="flex items-center gap-2 pt-2">
                   <FaLinkedin size={18} color="#fff" />
@@ -119,7 +121,7 @@ export const Footer = () => {
                   Phone number:
                 </h3>
                 <p className="text-sm font-normal text-white">
-                  09077654677, 090876544678
+                  +234(0)803 300 8018
                 </p>
               </div>
               <div className="flex flex-col gap-1">
