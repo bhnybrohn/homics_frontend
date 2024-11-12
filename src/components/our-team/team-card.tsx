@@ -62,7 +62,7 @@ export const TeamCard = () => {
               <p className="text-sm text-gray-700 px-2">
                 Dr. Michael David, with over 40 years of professional experience, leads the company as CEO and Principal Partner at HOMICS International LLC. Holding a Ph.D. in Organizational Leadership from Regent University, an MBA in Executive Strategic Marketing from the University of Lagos, and advanced certifications in Agricultural Statistics from USDA Graduate School, Dr. Michael David is an expert in driving sustainable agribusiness growth.
 
-                Dr. Michael David has held pivotal roles, including Senior Agricultural Specialist at the FAS/USDA Office of the U.S. Embassy, where he spearheaded U.S./Nigeria trade initiatives and developed critical economic reports. As the Country Representative for the U.S. Soybean Export Council, he promoted U.S. soybean exports and sponsored grassroot capacity building across Middle East and Sub-Saharan Africa.
+                Dr. Michael David has held pivotal roles, including Senior Agricultural Specialist at the FAS/USDA Office of the U.S. Embassy, where he spearheaded U.S./Nigeria trade initiatives and developed critical economic reports. As the Country Representative for the U.S. Soybean Export Council, he promoted U.S. soybean exports and sponsored grassroot capacity building across Sub-Saharan Africa.
 
                 At HOMICS International LLC, Dr. Michael David provides strategic consultancy in agribusiness, value chain analysis, Supply chain management, capacity building and addressing policy issues. His leadership and expertise ensure our commitment to optimizing operations, enhancing productivity, and fostering sustainable growth for our clients globally.              </p>
             </div>

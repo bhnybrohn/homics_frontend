@@ -28,8 +28,8 @@ Through these impactful initiatives, Homics International is not just implementi
   },
   {
     title: "Strengthening Global Soy Industry Connections and Knowledge Transfer",
-    text: `Homics International's unique position as a bridge between the U.S. Soybean Export Council (USSEC) and the Sub-Saharan African (SSA) region has fostered significant advancements in global industry connections and knowledge sharing:
-
+    text: `Homics International's occupies a unique position as a bridge between the US Agriculture and the Sub-Saharan African (SSA) region which has fostered significant advancements in global industry connections and knowledge sharing:
+    Currently, Homics International serves as the Center lead for US SOY Soy excellence center is Sub Sahara Africa (SSA) and the SEC is one of 6 US Soy Excellence centeres.
 Facilitating cross-cultural exchange and understanding between U.S. soy producers and SSA markets, leading to more effective and mutually beneficial trade relationships. Our role has helped break down cultural barriers and misconceptions, paving the way for smoother international collaborations.
 
 Establishing a robust knowledge transfer pipeline from developed soy markets to emerging ones in SSA. By adapting and disseminating best practices from the U.S. soy industry, we've accelerated the learning curve for local farmers and agribusinesses, helping them avoid common pitfalls and adopt proven strategies more quickly.
@@ -44,7 +44,7 @@ Through these efforts, Homics International is not just implementing programs bu
     bg: "url(/hero-section/bg-3.svg)",
   },
   {
-    title: " Empowering Local Communities and Economies Through Soy Industry Development",
+    title: "Agribusiness Incubation center for Knowledge transfer",
     text: `Homics International's work goes beyond agricultural productivity and sustainability, directly contributing to the socio-economic development of local communities in Sub-Saharan Africa (SSA):
 Creating new employment opportunities across the soy value chain, from farming to processing and trade. Our initiatives have helped establish and grow soy-related businesses, providing stable income sources for many families in the region.
 Enhancing food security and nutrition in local communities by promoting soy as a high-quality, affordable protein source. This has led to improved dietary diversity and better health outcomes, particularly for vulnerable populations.

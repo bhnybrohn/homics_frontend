@@ -16,7 +16,7 @@ const data = [
     icon: <FaPhoneAlt size={18} color="white" />,
   },
   {
-    name: "A4-302, 1004 Estates Victoria Island ",
+    name: "A4-302, 1004 Estates Victoria Island, Lagos Nigeria ",
     icon: <FaLocationDot size={18} color="white" />,
   },
 ];

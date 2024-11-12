@@ -105,7 +105,8 @@ export const Footer = () => {
                 <h3 className="teext-base font-medium text-white">Address</h3>
                 <p className="text-sm font-normal text-white">
                   A4-302, 1004 Estates
-                  Victoria Island
+                  Victoria Island<br></br>
+                  Lagos, Nigeria
 
                 </p>
                 <div className="flex items-center gap-2 pt-2">
